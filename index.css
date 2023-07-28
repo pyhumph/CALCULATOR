@@ -1,0 +1,58 @@
+form {
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 500px;
+  padding: 30px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 12px;
+  background-color: #3c3c3c;
+  color: white;
+  box-shadow: 8px 10px 8px 10px #8888;
+}
+
+form .title {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+form div #screen {
+  width: 500px;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 35px;
+}
+
+form div{
+  display: flex;
+  justify-content: space-between;
+}
+
+form div .button {
+  border: none;
+  background-color: grey;
+  font-size: 24px;
+  margin: 10px;
+  text-align: center;
+  padding: 15px;
+  min-width: 75px;
+  cursor: pointer;
+  border-radius: 15px / 25% 25% 55% 55%;
+  transition: opacity 0ms;
+}
+
+form div .button:hover {
+  background-color: #1d1d1d;
+  color: white;
+}
+
+form div .button:active {
+  opacity: 0.7;
+}
+
+#delete {
+  border: 1px solid white;
+  border-radius: 15px / 110% 90% 110% 110%;
+  padding: 5px;
+}
